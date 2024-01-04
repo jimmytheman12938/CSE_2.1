@@ -1,16 +1,12 @@
-# This is a sample Python script.
+var1 = 10
+var2 = 5
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def greater_value():
+    if var1 > var2:
+        print("variable 1 is bigger")
+    else:
+        print("variable 2 must be bigger")
+    else:
+        print("they are the same")
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+greater_value()
